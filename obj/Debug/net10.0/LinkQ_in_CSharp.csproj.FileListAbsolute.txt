@@ -1,0 +1,15 @@
+C:\Development\LinkQ_in_CSharp\bin\Debug\net10.0\LinkQ_in_CSharp.exe
+C:\Development\LinkQ_in_CSharp\bin\Debug\net10.0\LinkQ_in_CSharp.deps.json
+C:\Development\LinkQ_in_CSharp\bin\Debug\net10.0\LinkQ_in_CSharp.runtimeconfig.json
+C:\Development\LinkQ_in_CSharp\bin\Debug\net10.0\LinkQ_in_CSharp.dll
+C:\Development\LinkQ_in_CSharp\bin\Debug\net10.0\LinkQ_in_CSharp.pdb
+C:\Development\LinkQ_in_CSharp\obj\Debug\net10.0\LinkQ_in_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\LinkQ_in_CSharp\obj\Debug\net10.0\LinkQ_in_CSharp.AssemblyInfoInputs.cache
+C:\Development\LinkQ_in_CSharp\obj\Debug\net10.0\LinkQ_in_CSharp.AssemblyInfo.cs
+C:\Development\LinkQ_in_CSharp\obj\Debug\net10.0\LinkQ_in_CSharp.csproj.CoreCompileInputs.cache
+C:\Development\LinkQ_in_CSharp\obj\Debug\net10.0\LinkQ_in_CSharp.sourcelink.json
+C:\Development\LinkQ_in_CSharp\obj\Debug\net10.0\LinkQ_in_CSharp.dll
+C:\Development\LinkQ_in_CSharp\obj\Debug\net10.0\refint\LinkQ_in_CSharp.dll
+C:\Development\LinkQ_in_CSharp\obj\Debug\net10.0\LinkQ_in_CSharp.pdb
+C:\Development\LinkQ_in_CSharp\obj\Debug\net10.0\LinkQ_in_CSharp.genruntimeconfig.cache
+C:\Development\LinkQ_in_CSharp\obj\Debug\net10.0\ref\LinkQ_in_CSharp.dll
