@@ -35,6 +35,12 @@ namespace LinqProgramming
             string st = str.Aggregate((c,n) => $"{c} {n}");
             Console.WriteLine($"Combining the string: {st}");
 
+            bool st1 = str.Any(n => n == "Hel");
+            Console.WriteLine($"Checking str has Hel are not: {st1}");
+
+            bool st2 = str.All(n => n == "Wor");
+            Console.WriteLine($"checking str are not: {st2}");
+
         } 
     } 
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkQ_in_CSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f67054fb71cb5196b4851172492a6d4d1fc58aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0ffd8abbdafb8fc2302e911c8df296812703ef8")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkQ_in_CSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkQ_in_CSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
