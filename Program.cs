@@ -72,6 +72,20 @@ namespace Linkq
 
             ElementOperation.person();
 
+            Console.WriteLine();
+
+            FileHandling.FilesOperation();
+            FileHandling.FilesOperation2();
+
+            Console.WriteLine();
+
+            DirectoryFolder.CreatingDirectory();
+            DirectoryFolder.DeletingDirectory();
+            DirectoryFolder.MovingDirectory();
+            DirectoryFiles.LogDataFiles();
+
+
+
 
         }
     }
