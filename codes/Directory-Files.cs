@@ -5,7 +5,7 @@ namespace LinqProgramming
     {
         public static void LogDataFiles()
         {
-            string mainFolder = @"C:\MyCApp\Logs";
+            string mainFolder = @"C:\Development\MyCApp\Logs";
         
             Directory.CreateDirectory(mainFolder);
 

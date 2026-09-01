@@ -31,7 +31,7 @@ namespace LinqProgramming
 
         public static void DeletingDirectory()
         {
-            string TempFolder = @"C:\App\TempFolder"; //this directory should be completely empty
+            string TempFolder = @"C:\Development\App\TempFolder"; //this directory should be completely empty
 
             Directory.CreateDirectory(TempFolder);
             Console.WriteLine("Created temporary folder");
@@ -40,7 +40,7 @@ namespace LinqProgramming
             Console.WriteLine("Deleted Temporary folder");
             Console.WriteLine();
 
-            string FolderPath = @"C:\App\Temp\Logs";
+            string FolderPath = @"C:\Development\App\Temp\Logs";
 
             Directory.CreateDirectory(FolderPath);
             Console.WriteLine("Created a sample folder for deletion");
@@ -48,7 +48,7 @@ namespace LinqProgramming
             
             if (Directory.Exists(FolderPath))
             {
-                string FilPath = @"C:\App\Temp\Logs\code.txt"; // This entire string is a path, but the path points to the "Logs\code.txt" folder only, then if you "Directory.Delete()" it will delete that folder(Logs) and file(code.txt), everything inside that folder(Logs)
+                string FilPath = @"C:\Development\App\Temp\Logs\code.txt"; // This entire string is a path, but the path points to the "Logs\code.txt" folder only, then if you "Directory.Delete()" it will delete that folder(Logs) and file(code.txt), everything inside that folder(Logs)
                 File.WriteAllText(FilPath,"Hello From deleting Directory");
                 Console.WriteLine("File got created successfully");
             }
@@ -63,8 +63,8 @@ namespace LinqProgramming
 
         public static void MovingDirectory()
         {
-            string currentPath = @"C:\App\OldCodex";
-            string destinationpath = @"C:\App\NewCodex"; // This entire string is a path, but the path points to the "NewCodex" folder itself //The "destination path" must not already exist, or an exception will be thrown, so don't "CreateDirectory()" for "destinationpath" 
+            string currentPath = @"C:\Development\App\OldCodex";
+            string destinationpath = @"C:\Development\App\NewCodex"; // This entire string is a path, but the path points to the "NewCodex" folder itself //The "destination path" must not already exist, or an exception will be thrown, so don't "CreateDirectory()" for "destinationpath" 
 
             Directory.CreateDirectory(currentPath);   
             Console.WriteLine("Created Current Directory");
