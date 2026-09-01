@@ -75,7 +75,7 @@ namespace LinqProgramming
                 s.WriteLine("File created inside the current Directory");    
             }
 
-            //Directory.Move(currentPath,destinationpath);  // Moves the entire 'OldCodex' directory into 'Coding\NewCodex'
+            Directory.Move(currentPath,destinationpath);  // Moves the entire 'OldCodex' directory into 'Coding\NewCodex'
 
             Console.WriteLine("OldCodex directory moved into the NewCodex directory successfully");
         }
