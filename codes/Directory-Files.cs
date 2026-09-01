@@ -63,6 +63,22 @@ namespace LinqProgramming
                 Console.WriteLine(dir);
             }
 
+            Console.WriteLine();
+            string[] getBothDirFil = Directory.GetFileSystemEntries(mainFolder);
+            Console.WriteLine("Path of the both files and directories: ");
+            foreach(string bth in getBothDirFil)
+            {
+                Console.WriteLine(bth);
+            }
+
+            Console.WriteLine();
+            string[] getdrives = Directory.GetLogicalDrives();
+            Console.WriteLine("Drive name where the directory get saved: ");
+            foreach(string dr in getdrives)
+            {
+                Console.WriteLine(dr);
+            }
+
         }
     }
 }
